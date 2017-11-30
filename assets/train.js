@@ -27,7 +27,7 @@ date = null;
 
 var update = function() {
 	date = moment(new Date())
-	dateTime.html(date.format('dddd, MMMMM Do YYYYY, h:mm:ss a'));
+	dateTime.html(date.format('dddd, MMMM Do YYYY, h:mm:ss a'));
 };
 
 $(document).ready(function(){
